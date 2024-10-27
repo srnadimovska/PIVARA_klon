@@ -1,0 +1,355 @@
+.body1 {
+  background-color: rgb(51, 51, 51);
+}
+
+/* /* .navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(51, 51, 51);
+}
+
+li {
+  display: inline;
+  color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+  border-bottom-color: orange;
+  height: fit-content;
+  width: fit-content;
+  text-align: center;
+}
+.navbar #logo {
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  width: fit-content;
+  margin-bottom: 0px;
+}
+li a:hover {
+  background-color: orange; 
+}*/
+
+.header1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  /* gap:20px; */
+  color: white;
+  font-family: sans-serif;
+  font-size: 13px;
+  margin-right: 100px;
+}
+
+.header1 .linkovi a {
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  width: fit-content;
+  height: fit-content;
+  gap: 20px;
+}
+
+.header1 .linkovi a:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: end;
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.navbar .logo img {
+  margin-left: 150px;
+  margin-right: 0;
+  width: 150px;
+  height: 150px;
+}
+.navbar .linkovi2 {
+  height: 50px;
+}
+
+.navbar .linkovi2 a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  width: fit-content;
+  /* margin-bottom: 20px; */
+}
+.navbar .linkovi2 a:hover {
+  cursor: pointer;
+}
+.navbar .linkovi2 .home {
+  background-color: orangered;
+}
+/* .navbar .linkovi2 .home img{
+  width:50px;
+  height:50px;
+} */
+.navbar .linkovi2 .link1 {
+  border-bottom: solid 2px;
+  border-bottom-color: #f1bb73;
+  /* border-bottom-width: 20px;
+  border-bottom-style: solid; */
+}
+.link1 a:hover {
+  background-color: #a0610e;
+}
+.navbar .linkovi2 .link2 {
+  border-bottom: solid 2px;
+  border-bottom-color: #e87bb0;
+}
+.link2 a:hover {
+  background-color: #4e0c2c;
+}
+.navbar .linkovi2 .link3 {
+  border-bottom: solid 2px;
+  border-bottom-color: #dbe368;
+}
+.link3 a:hover {
+  background-color: #42460a;
+}
+.navbar .linkovi2 .link4 {
+  border-bottom: solid 2px;
+  border-bottom-color: #f8dc5e;
+}
+.link4 a:hover {
+  background-color: #a1860c;
+}
+.navbar .linkovi2 .link5 {
+  border-bottom: solid 2px;
+  border-bottom-color: #b9e4f3;
+}
+.link5 a:hover {
+  background-color: #0d5870;
+}
+.navbar .linkovi2 .link6 {
+  border-bottom: solid 2px;
+  border-bottom-color: #c76969;
+}
+.link6 a:hover {
+  background-color: #e90000;
+}
+
+.navbar .pivara img {
+  margin-right: 100px;
+}
+
+.main_top {
+  width: 100%;
+  height: 600px;
+  background-image: url(/images/main-slider.png);
+
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: end;
+}
+.naslov {
+  padding-bottom: 50px;
+  margin-left: 50px;
+}
+.naslov h1,
+span {
+  color: rgb(241, 241, 222);
+  font-family: sans-serif;
+  text-shadow: 2px 2px rgb(34, 32, 32);
+}
+.sticky {
+  position: sticky;
+  /* top: 0px; */
+  bottom: 200px;
+}
+.sticky a:hover {
+  cursor: pointer;
+}
+
+.novosti {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  padding: 10px;
+  background-color: black;
+  width: 100%;
+
+  /* height:fit-content; */
+}
+.novosti .h2 {
+  font-size: xx-large;
+  color: white;
+  font-family: sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0;
+  border-bottom-style: solid;
+  border-bottom-color: #e68c1a;
+}
+.novosti2 a {
+  text-decoration: none;
+  color: white;
+}
+.novosti2 a:hover {
+  background-color: #e68c1e;
+}
+.novosti3 span {
+  padding-right: 50px;
+}
+
+.cards {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+}
+.cards .card1 img {
+  width: 300px;
+  border-bottom: solid;
+  border-bottom-width: 10px;
+  border-bottom-color: #dbe368;
+}
+
+.cards .card1 {
+  background-color: white;
+  width: 300px;
+  font-family: sans-serif;
+  height: 400px;
+}
+.cards .card2 img {
+  width: 300px;
+  border-bottom: solid;
+  border-bottom-width: 10px;
+  border-bottom-color: #dbe368;
+}
+
+.cards .card2 {
+  background-color: white;
+  width: 300px;
+  font-family: sans-serif;
+  height: 400px;
+}
+.cards .card3 img {
+  width: 300px;
+  border-bottom: solid;
+  border-bottom-width: 10px;
+  border-bottom-color: #dbe368;
+}
+
+.cards .card3 {
+  background-color: white;
+  width: 300px;
+  font-family: sans-serif;
+  height: 400px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  height: fit-content;
+  width: 100%;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  font-family: sans-serif;
+  color: white;
+  background-color: #1e1e22;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  border-bottom: solid 2px;
+}
+
+.doma a {
+  margin-left: 50px;
+  border-bottom-color: #bf331d;
+}
+.doma a:hover {
+  background-color: #bf331d;
+}
+
+.inovacii a {
+  margin-left: 50px;
+  border-bottom-color: #b22066;
+}
+.inovacii a:hover {
+  background-color: #b22066;
+}
+.razvoj a {
+  margin-left: 50px;
+  border-bottom-color: #929b12;
+}
+.razvoj a:hover {
+  background-color: #929b12;
+}
+.kariera a {
+  margin-left: 50px;
+  border-bottom-color: #d8b40c;
+}
+.kariera a:hover {
+  background-color: #d8b40c;
+}
+.kontakt a {
+  margin-left: 50px;
+  border-bottom-color: #3bacd3;
+}
+.kontakt a:hover {
+  background-color: #3bacd3;
+}
+.del2 h3 {
+  border-bottom: solid 2px #e68c1e;
+}
+.del2 a {
+  text-decoration: none;
+  border-style: none;
+}
+.del2 a:hover {
+  background-color: #e68c1e;
+}
+.footer .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  background-color: #3d3e47;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.footer .form input {
+  text-align: center;
+  height: 30px;
+  border-radius: 5px;
+}
+.footer .form button {
+  text-align: center;
+  height: 30px;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #e68c1e;
+  color: white;
+  border-style: none;
+  cursor: pointer;
+}
+.del3 textarea {
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+}
