@@ -1,5 +1,5 @@
 .body1 {
-  background-color: rgb(51, 51, 51);
+  background-color: #1e1e22;
 }
 
 /* /* .navbar {
@@ -80,7 +80,9 @@ li a:hover {
 }
 .navbar .linkovi2 {
   height: 50px;
+  
 }
+
 
 .navbar .linkovi2 a {
   color: white;
@@ -88,12 +90,18 @@ li a:hover {
   text-decoration: none;
   padding: 10px;
   width: fit-content;
+  height: fit-content;
   /* margin-bottom: 20px; */
 }
 .navbar .linkovi2 a:hover {
   cursor: pointer;
 }
 .navbar .linkovi2 .home {
+  border-bottom: solid 2px;
+  border-bottom-color: orangered;
+}
+
+.linkovi2 .home img {
   background-color: orangered;
 }
 /* .navbar .linkovi2 .home img{
@@ -154,11 +162,12 @@ li a:hover {
   height: 600px;
   background-image: url(/images/main-slider.png);
 
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: end;
+  position: relative;
 }
 .naslov {
   padding-bottom: 50px;
@@ -172,8 +181,9 @@ span {
 }
 .sticky {
   position: sticky;
-  /* top: 0px; */
-  bottom: 200px;
+  top: 0;
+  align-self: flex-start;
+  /* bottom: 200px; */
 }
 .sticky a:hover {
   cursor: pointer;
@@ -208,6 +218,10 @@ span {
 .novosti2 a:hover {
   background-color: #e68c1e;
 }
+
+/* .novosti2 span:hover {
+  background-color: #e68c1e; */
+
 .novosti3 span {
   padding-right: 50px;
 }
