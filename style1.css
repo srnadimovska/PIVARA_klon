@@ -1,8 +1,5 @@
 .body1 {
   background-color: #1e1e22;
-  
-  
-  
 }
 
 /* /* .navbar {
@@ -55,7 +52,6 @@ li a:hover {
   padding-top: 8px;
 }
 .header1 .linkovi img {
-
   height: 12px;
 }
 
@@ -73,19 +69,17 @@ li a:hover {
   background-color: orange;
   cursor: pointer;
 }
-.linkovi .mk select{
-  width: 50px; 
+.linkovi .mk select {
+  width: 50px;
   height: 20px;
-  border:solid 2px white;
+  border: solid 2px white;
   border-bottom: transparent;
   border-top: transparent;
   background-color: transparent;
-  color:white;
-  
+  color: white;
 }
 .linkovi .mk select:hover {
   cursor: pointer;
-  
 }
 .navbar {
   display: flex;
@@ -109,7 +103,6 @@ li a:hover {
   
 }
 
-
 .navbar .linkovi2 a {
   color: white;
   text-align: center;
@@ -119,75 +112,79 @@ li a:hover {
   height: fit-content;
   /* margin-bottom: 20px; */
 }
-.navbar .linkovi2 a:hover {
+.navbar .linkovi2 a {
   cursor: pointer;
 }
 .navbar .linkovi2 .home {
+  padding-bottom: 15px;
   border-bottom: solid 2px;
   border-bottom-color: orangered;
 }
 
 .linkovi2 .home img {
   background-color: orangered;
+  
 }
-/* .navbar .linkovi2 .home img{
-  width:50px;
-  height:50px;
-} */
+
 .navbar .linkovi2 .link1 {
+  padding-bottom: 15px;
   border-bottom: solid 2px;
-  border-bottom-color: #f1bb73;
-  /* border-bottom-width: 20px;
-  border-bottom-style: solid; */
+  border-bottom-color: orange;
+  
 }
 .link1 a:hover {
-  background-color: #a0610e;
+  color: orange;
 }
 .navbar .linkovi2 .link2 {
+  padding-bottom: 15px;
   border-bottom: solid 2px;
   border-bottom-color: #e87bb0;
 }
 .link2 a:hover {
-  background-color: #4e0c2c;
+  color: #e87bb0;
 }
 .navbar .linkovi2 .link3 {
+  padding-bottom: 15px;
   border-bottom: solid 2px;
   border-bottom-color: #dbe368;
 }
 .link3 a:hover {
-  background-color: #42460a;
+  color: #dbe368;
 }
 .navbar .linkovi2 .link4 {
+  padding-bottom: 15px;
   border-bottom: solid 2px;
   border-bottom-color: #f8dc5e;
 }
 .link4 a:hover {
-  background-color: #a1860c;
+  color: #f8dc5e;
 }
 .navbar .linkovi2 .link5 {
+  padding-bottom: 15px;
   border-bottom: solid 2px;
   border-bottom-color: #b9e4f3;
 }
 .link5 a:hover {
-  background-color: #0d5870;
+  color: #b9e4f3;
 }
 .navbar .linkovi2 .link6 {
+  padding-bottom: 15px;
   border-bottom: solid 2px;
   border-bottom-color: #c76969;
 }
 .link6 a:hover {
-  background-color: #e90000;
+  color: #c76969;
 }
 
 .navbar .pivara img {
-  margin-right: 100px;
+  padding-right: 100px;
 }
 
 .main_top {
   width: 100%;
   height: 600px;
   background-image: url(/images/main-slider.png);
-  
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -198,21 +195,22 @@ li a:hover {
   padding-bottom: 50px;
   margin-left: 50px;
 }
-.naslov span,h1 {
+.naslov span,
+h1 {
   color: rgb(241, 241, 222);
   font-family: sans-serif;
   text-shadow: 2px 2px rgb(34, 32, 32);
   position: relative;
   text-align: center;
 }
-.naslov h1{
+.naslov h1 {
   font-size: 50px;
 }
-.naslov h1::first-line{
+.naslov h1::first-line {
   color: #11cd1a;
 }
 
-.naslov span{
+.naslov span {
   font-size: 30px;
 }
 .sticky {
@@ -223,40 +221,39 @@ li a:hover {
 }
 .sticky a:hover {
   cursor: pointer;
-
 }
 
 .novosti {
-
   /* display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center; */
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  margin-top: 0;
-  padding: 10px 150px;
+  padding: 20px 150px;
   background-color: black;
-  width: 100%;
+  gap: 20px;
   font-family: sans-serif;
-  color:white ;
-  
+  color: white;
 }
 .novosti .h2 {
   font-size: xx-large;
-  
+
   margin-left: 50px;
   margin-right: 50px;
   padding: 0;
   border-bottom-style: solid;
   border-bottom-color: #e68c1a;
- 
+}
+.novosti2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap:10px;
 }
 
-
 .novosti2 a {
-  
   text-decoration: none;
   color: white;
   border: solid 2px;
@@ -265,18 +262,13 @@ li a:hover {
   border-top: transparent;
   border-right: transparent;
   padding: 0px 10px;
-  
 }
-.novosti2 a:hover  {
-  background-color: #e68c1e;
-  
+.novosti2 span:hover a {
+  color: #e90000;
 }
-
-
 
 .novosti3 span {
   font-size: x-large;
-  
   
 }
 
@@ -286,10 +278,8 @@ li a:hover {
   flex-wrap: wrap;
   justify-content: space-between; */
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   padding: 20px 150px;
-
-  
 }
 .cards .card1 img {
   width: 300px;
@@ -297,7 +287,9 @@ li a:hover {
   border-bottom-width: 10px;
   border-bottom-color: #dbe368;
 }
-
+.cards .card1:hover img{
+  box-shadow:3px 3px #474758;
+}
 
 .cards .card1 {
   display: flex;
@@ -309,11 +301,19 @@ li a:hover {
   height: 400px;
   padding: 15px;
 }
+.cards .card1:hover{
+
+  background-color: #ecf0bb;
+  
+}
 .cards .card2 img {
   width: 300px;
   border-bottom: solid;
   border-bottom-width: 10px;
   border-bottom-color: #dbe368;
+}
+.cards .card2:hover img{
+  box-shadow:3px 3px #474758;
 }
 
 .cards .card2 {
@@ -326,11 +326,18 @@ li a:hover {
   height: 400px;
   padding: 15px;
 }
+.cards .card2:hover{
+background-color:#ecf0bb;
+}
+
 .cards .card3 img {
   width: 300px;
   border-bottom: solid;
   border-bottom-width: 10px;
   border-bottom-color: #dbe368;
+}
+.cards .card3:hover img{
+  box-shadow:3px 3px #474758;
 }
 
 .cards .card3 {
@@ -343,23 +350,23 @@ li a:hover {
   height: 400px;
   padding: 15px;
 }
+.cards .card3:hover {
+  background-color: #ecf0bb;
+
+}
 
 .footer {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 80px;
-  height: fit-content;
-  width: 100%; */
+  
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  padding-left: 100px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px 150px;
+  align-items: start;
+  gap:20px
   font-family: sans-serif;
   color: white;
   background-color: #1e1e22;
-  margin:auto;
-  
 }
+
 .footer a {
   text-decoration: none;
   color: white;
@@ -367,63 +374,63 @@ li a:hover {
 }
 
 .doma a {
-  margin-left: 50px;
+  
   border-bottom-color: #bf331d;
 }
 .doma a:hover {
-  background-color: #bf331d;
+  color: #bf331d;
 }
 
 .inovacii a {
-  margin-left: 50px;
+  
   border-bottom-color: #b22066;
 }
 .inovacii a:hover {
-  background-color: #b22066;
+  color: #b22066;
 }
 .razvoj a {
-  margin-left: 50px;
+  
   border-bottom-color: #929b12;
 }
 .razvoj a:hover {
-  background-color: #929b12;
+  color: #929b12;
 }
 .kariera a {
-  margin-left: 50px;
+  
   border-bottom-color: #d8b40c;
 }
 .kariera a:hover {
-  background-color: #d8b40c;
+  color: #d8b40c;
 }
 .kontakt a {
-  margin-left: 50px;
+  
   border-bottom-color: #3bacd3;
 }
 .kontakt a:hover {
-  background-color: #3bacd3;
+  color: #3bacd3;
 }
 .del2 h3 {
   border-bottom: solid 2px #e68c1e;
-  width:fit-content;
+  width: fit-content;
 }
 .del2 a {
   text-decoration: none;
   border-style: none;
 }
 .del2 a:hover {
-  background-color: #e68c1e;
+  color: #e68c1e;
 }
 .footer .form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: fit-content;
-  height: fit-content;
+  width: 200px;
+  height: 300px;
   background-color: #3d3e47;
-  margin-top: 20px;
   border-radius: 5px;
-  padding:10px;
+  padding: 5px;
   border-color: none;
+  margin-top: 0;
 }
 .footer .form input {
   text-align: center;
@@ -440,8 +447,64 @@ li a:hover {
   border-style: none;
   cursor: pointer;
 }
-.del3 textarea {
+
+.del3 iframe {
   width: 200px;
   height: 300px;
   border-radius: 5px;
+  margin-left: 20px;
+  
+}
+
+@media screen and (max-width: 1050px)
+{
+.novosti {
+  grid-template-columns: repeat(1,1fr);
+  gap: 20px;
+
+}
+.cards {
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+.footer {
+  grid-template-columns: repeat(3,1fr);
+}
+  
+}
+
+@media screen and (max-width: 600px)
+{
+  .header1{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(2,1fr);
+  
+
+  }
+ 
+ .navbar{
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
+  grid-column: 1/10;
+  /* flex-direction: column;
+  align-items: flex-start;
+  gap: 10px; */
+
+  
+ }
+ .novosti {
+  grid-template-columns: repeat(1,1fr);
+  gap:20px
+
+}
+.cards {
+  grid-template-columns: repeat(1,1fr);
+  gap:20px;
+}
+.footer {
+  grid-template-columns: repeat(1,1fr);
+  gap:20px;
+}
+
 }
