@@ -160,9 +160,13 @@
 .grid .button a {
   text-decoration: none;
   color: white;
+  transition-duration: 2s;
+  transition-timing-function: ease;
 }
 .grid .button:hover a {
   color: orange;
+  
+  
 }
 
 .grid .pole1 {
